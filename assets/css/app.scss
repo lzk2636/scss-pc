@@ -1,0 +1,25 @@
+@import "def";
+@import "reset";
+@import "common";
+body{
+  font-size: 14px;
+}
+.el-pager{
+  color: #999;
+  li{
+    font-size: 14px!important;
+  }
+}
+.page{
+  margin-top: 45px;
+  text-align: right;
+  padding-right: 32px;
+}
+.no-data {
+  color: #899abf;
+  text-align: center;
+  padding: 20px 0;
+}
+.el-range-separator {
+  width:8% !important;
+}
